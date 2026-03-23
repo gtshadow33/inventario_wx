@@ -1,3 +1,0 @@
-/home/gts/porogramacion/qt/inventario_wx/build/CMakeFiles/InventarioWx.dir
-/home/gts/porogramacion/qt/inventario_wx/build/CMakeFiles/edit_cache.dir
-/home/gts/porogramacion/qt/inventario_wx/build/CMakeFiles/rebuild_cache.dir
