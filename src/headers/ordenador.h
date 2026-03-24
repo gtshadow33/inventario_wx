@@ -12,12 +12,6 @@ struct Ordenador {
     bool        funciona  = true;
     std::string descripcion;
 
-    bool isValid() const {
-        // Nombre y grupo son obligatorios
-        auto trim = [](const std::string &s) {
-            size_t a = s.find_first_not_of(" \t\r\n");
-            return (a == std::string::npos) ? "" : s.substr(a);
-        };
-        return !trim(nombre).empty() && !trim(grupo).empty();
-    }
+    bool isValid() const ;
+        
 };

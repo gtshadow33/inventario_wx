@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "./headers/mainwindow.h"
 #include <wx/msgdlg.h>
 #include <wx/statbox.h>
 #include <wx/sizer.h>
@@ -194,8 +194,9 @@ void MainWindow::RellenarFormulario(long row) {
 // -------------------------------------------------------------------------
 void MainWindow::OnAgregar(wxCommandEvent &) {
     Ordenador o = GetOrdenadorFormulario();
+
     if (!o.isValid()) {
-        wxMessageBox("El nombre y grupo son obligatorios", "Error", wxICON_WARNING);
+        wxMessageBox("El nombre y grupo son obligatorios y la decripcion superior a 30 palabras", "Error", wxICON_WARNING);
         return;
     }
     if (m_inventario->agregarOrdenador(o)) {
@@ -219,6 +220,11 @@ void MainWindow::OnEditar(wxCommandEvent &) {
 
     Ordenador o = GetOrdenadorFormulario();
     o.id = (int)id;
+
+   if (o.isValid()) {
+    wxMessageBox("Nombre y grupo son obligatorio y descripcion maximo 30 palabras", "Error", wxICON_WARNING);
+    return;
+    }
 
     if (m_inventario->modificarOrdenador(o)) {
         wxMessageBox("Ordenador modificado", "OK", wxICON_INFORMATION);
