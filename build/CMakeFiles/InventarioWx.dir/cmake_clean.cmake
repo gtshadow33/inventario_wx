@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/InventarioWx.dir/link.d"
   "CMakeFiles/InventarioWx.dir/src/database.cpp.o"
   "CMakeFiles/InventarioWx.dir/src/database.cpp.o.d"
   "CMakeFiles/InventarioWx.dir/src/inventario.cpp.o"
