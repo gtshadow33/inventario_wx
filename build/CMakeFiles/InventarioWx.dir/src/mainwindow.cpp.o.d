@@ -1,7 +1,7 @@
 CMakeFiles/InventarioWx.dir/src/mainwindow.cpp.o: \
  /home/gts/porogramacion/qt/inventario_wx/src/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/gts/porogramacion/qt/inventario_wx/src/headers/mainwindow.h \
+ /home/gts/porogramacion/qt/inventario_wx/src/./headers/mainwindow.h \
  /usr/include/wx-3.2/wx/wx.h /usr/include/wx-3.2/wx/defs.h \
  /usr/include/wx-3.2/wx/platform.h /usr/include/wx-3.2/wx/compiler.h \
  /usr/lib/wx/include/gtk3-unicode-3.2/wx/setup.h \
@@ -363,7 +363,7 @@ CMakeFiles/InventarioWx.dir/src/mainwindow.cpp.o: \
  /usr/include/wx-3.2/wx/spinctrl.h /usr/include/wx-3.2/wx/spinbutt.h \
  /usr/include/wx-3.2/wx/range.h /usr/include/wx-3.2/wx/gtk/spinbutt.h \
  /usr/include/wx-3.2/wx/gtk/spinctrl.h \
- /home/gts/porogramacion/qt/inventario_wx/src/headers/inventario.h \
- /home/gts/porogramacion/qt/inventario_wx/src/headers/ordenador.h \
- /home/gts/porogramacion/qt/inventario_wx/src/headers/database.h \
+ /home/gts/porogramacion/qt/inventario_wx/src/./headers/inventario.h \
+ /home/gts/porogramacion/qt/inventario_wx/src/./headers/ordenador.h \
+ /home/gts/porogramacion/qt/inventario_wx/src/./headers/database.h \
  /usr/include/sqlite3.h
